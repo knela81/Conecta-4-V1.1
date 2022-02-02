@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Conecta_4" customModuleProvider="target">
+            <connections>
+                <outlet property="BotonResetWin" destination="r0b-XX-lTa" id="Tkg-7B-3zb"/>
+                <outlet property="BotonRestart" destination="VZA-nL-rk9" id="TbI-nc-k1A"/>
+                <outlet property="Columna1" destination="YPu-Ou-ooU" id="lCN-DZ-aYW"/>
+                <outlet property="Columna2" destination="4tB-uX-Dq2" id="dXr-xj-4KV"/>
+                <outlet property="Columna3" destination="vZd-OS-MZi" id="bKS-S4-UIS"/>
+                <outlet property="Columna4" destination="sTe-7F-AJF" id="YB6-oY-3Dc"/>
+                <outlet property="Columna5" destination="SFA-Gz-Q7h" id="DJy-q6-97N"/>
+                <outlet property="Columna6" destination="0wh-y9-UOZ" id="Ifs-SP-xD1"/>
+                <outlet property="fichaA1" destination="8H4-oG-U0Z" id="hjA-VK-2SZ"/>
+                <outlet property="fichaA2" destination="aGL-y3-wCs" id="9FN-jl-50g"/>
+                <outlet property="fichaA3" destination="yYg-WE-tZP" id="NyC-7z-aCK"/>
+                <outlet property="fichaA4" destination="UTE-4d-Ncu" id="ZAx-Fa-6Wx"/>
+                <outlet property="fichaA5" destination="j03-4i-3Nn" id="H0x-yz-dLp"/>
+                <outlet property="fichaA6" destination="bIj-pa-LJs" id="ebf-Oj-FCi"/>
+                <outlet property="fichaA7" destination="IZH-mc-Psp" id="1zP-cb-evY"/>
+                <outlet property="fichaB1" destination="lDD-Pm-FyJ" id="p2L-b6-JaK"/>
+                <outlet property="fichaB2" destination="fap-eD-ZDm" id="l4d-kD-zvS"/>
+                <outlet property="fichaB3" destination="JMG-8P-gGu" id="Eru-cY-ngW"/>
+                <outlet property="fichaB4" destination="jed-JB-Awf" id="avs-Xg-bcm"/>
+                <outlet property="fichaB5" destination="doh-73-Ycf" id="ubJ-Y1-LD4"/>
+                <outlet property="fichaB6" destination="uel-vn-wbz" id="0sL-9Z-53x"/>
+                <outlet property="fichaB7" destination="3Xg-bv-6Yz" id="ORH-3V-tXL"/>
+                <outlet property="fichaC1" destination="vRA-Dz-MY4" id="6BD-ys-atH"/>
+                <outlet property="fichaC2" destination="q9K-7g-MR0" id="cA4-VA-d48"/>
+                <outlet property="fichaC3" destination="Q5E-hT-H0O" id="kos-p6-G1E"/>
+                <outlet property="fichaC4" destination="SdM-wd-faF" id="W68-Jb-meo"/>
+                <outlet property="fichaC5" destination="0V4-I9-nIp" id="CMu-e5-A3A"/>
+                <outlet property="fichaC6" destination="Tm0-sT-XV3" id="fMe-P0-Rx8"/>
+                <outlet property="fichaC7" destination="E4c-xl-7cv" id="gdD-fG-y2r"/>
+                <outlet property="fichaD1" destination="7bq-WL-0Ur" id="Tns-9F-tOQ"/>
+                <outlet property="fichaD2" destination="mCO-EQ-EBB" id="tdc-IH-ux5"/>
+                <outlet property="fichaD3" destination="McJ-jQ-4PO" id="NPj-qm-HFS"/>
+                <outlet property="fichaD4" destination="j7d-82-ZuL" id="Mb0-4a-kvO"/>
+                <outlet property="fichaD5" destination="qDo-b7-AKj" id="kUK-Zg-T63"/>
+                <outlet property="fichaD6" destination="4sH-Jx-kw2" id="xg6-5P-xBS"/>
+                <outlet property="fichaD7" destination="Hws-e2-h9g" id="yaq-7w-6JU"/>
+                <outlet property="fichaE1" destination="w1A-F3-nca" id="8IX-sO-5hc"/>
+                <outlet property="fichaE2" destination="ylZ-qu-d6k" id="0Qf-96-edH"/>
+                <outlet property="fichaE3" destination="4Lo-cT-IzZ" id="OsJ-YX-JO0"/>
+                <outlet property="fichaE4" destination="igM-HH-Hhz" id="1Yv-yp-3iO"/>
+                <outlet property="fichaE5" destination="EJN-NF-7za" id="UMF-cu-atJ"/>
+                <outlet property="fichaE6" destination="Gzz-JL-U8d" id="ajp-rs-3dr"/>
+                <outlet property="fichaE7" destination="RuU-VI-APP" id="ARc-7K-lPP"/>
+                <outlet property="fichaF1" destination="3C8-pI-xph" id="BOV-EK-xq6"/>
+                <outlet property="fichaF2" destination="vHO-lp-eaU" id="aff-Ls-C4b"/>
+                <outlet property="fichaF3" destination="B5s-ir-Q4g" id="8wV-pS-kch"/>
+                <outlet property="fichaF4" destination="yyj-E2-7wb" id="yIR-Xl-BXN"/>
+                <outlet property="fichaF5" destination="Pix-dc-7hw" id="gri-No-Mbt"/>
+                <outlet property="fichaF6" destination="YzX-Q0-701" id="edK-7g-xar"/>
+                <outlet property="fichaF7" destination="AHC-Nb-21d" id="vZI-9U-czB"/>
+                <outlet property="lblTurnoJugador" destination="R1t-4b-T35" id="VEx-1A-5U0"/>
+                <outlet property="marcadorAmarillo" destination="Hru-fy-Rea" id="azb-xa-vjd"/>
+                <outlet property="marcadorRojo" destination="xRt-Ug-pwv" id="dZZ-xJ-55n"/>
+                <outlet property="tablero" destination="UVG-uZ-rfJ" id="FFV-iu-tVQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UVG-uZ-rfJ">
+                    <rect key="frame" x="10" y="287.33333333333337" width="408" height="351.33333333333337"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5xd-xs-7jP">
+                            <rect key="frame" x="10" y="10" width="388" height="331.33333333333331"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YPu-Ou-ooU">
+                                    <rect key="frame" x="0.0" y="0.0" width="47" height="331.33333333333331"/>
+                                    <subviews>
+                                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8H4-oG-U0Z">
+                                            <rect key="frame" x="0.0" y="0.0" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="8H4-oG-U0Z" secondAttribute="height" multiplier="1:1" id="JN8-eY-ecD"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="A1"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna1:" destination="-1" eventType="touchUpInside" id="qwq-yg-9Dq"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDD-Pm-FyJ">
+                                            <rect key="frame" x="0.0" y="57" width="47" height="46.666666666666657"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="lDD-Pm-FyJ" secondAttribute="height" multiplier="1:1" id="ohr-q5-Gkp"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="B1"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna1:" destination="-1" eventType="touchUpInside" id="nTK-6O-4cW"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRA-Dz-MY4">
+                                            <rect key="frame" x="0.0" y="113.66666666666669" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="vRA-Dz-MY4" secondAttribute="height" multiplier="1:1" id="bMA-G8-hbJ"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="C1"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna1:" destination="-1" eventType="touchUpInside" id="4au-WH-ZQR"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bq-WL-0Ur">
+                                            <rect key="frame" x="0.0" y="170.66666666666669" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="7bq-WL-0Ur" secondAttribute="height" multiplier="1:1" id="zB3-5n-3dC"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="D1"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna1:" destination="-1" eventType="touchUpInside" id="rlG-qW-w67"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1A-F3-nca">
+                                            <rect key="frame" x="0.0" y="227.66666666666669" width="47" height="46.666666666666686"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="w1A-F3-nca" secondAttribute="height" multiplier="1:1" id="eqO-sY-SS0"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="E1"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna1:" destination="-1" eventType="touchUpInside" id="dth-jK-WRb"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3C8-pI-xph">
+                                            <rect key="frame" x="0.0" y="284.33333333333331" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="3C8-pI-xph" secondAttribute="height" multiplier="1:1" id="BhR-5y-Fq0"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="F1"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna1:" destination="-1" eventType="touchUpInside" id="Rdq-mV-2zO"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4tB-uX-Dq2">
+                                    <rect key="frame" x="57" y="0.0" width="46.666666666666657" height="331.33333333333331"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGL-y3-wCs">
+                                            <rect key="frame" x="0.0" y="0.0" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="aGL-y3-wCs" secondAttribute="height" multiplier="1:1" id="h0D-iv-By5"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="A2"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna2:" destination="-1" eventType="touchUpInside" id="smN-V3-b1f"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fap-eD-ZDm">
+                                            <rect key="frame" x="0.0" y="57" width="46.666666666666664" height="46.666666666666657"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="fap-eD-ZDm" secondAttribute="height" multiplier="1:1" id="Zqt-EN-xLU"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="B2"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna2:" destination="-1" eventType="touchUpInside" id="05q-wA-kcJ"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9K-7g-MR0">
+                                            <rect key="frame" x="0.0" y="113.66666666666669" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="q9K-7g-MR0" secondAttribute="height" multiplier="1:1" id="sZc-0h-aQI"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="C2"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna2:" destination="-1" eventType="touchUpInside" id="ipF-mF-eIk"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCO-EQ-EBB">
+                                            <rect key="frame" x="0.0" y="170.66666666666669" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="mCO-EQ-EBB" secondAttribute="height" multiplier="1:1" id="Q4k-1S-JcI"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="D2"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna2:" destination="-1" eventType="touchUpInside" id="9og-o4-ykH"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylZ-qu-d6k">
+                                            <rect key="frame" x="0.0" y="227.66666666666669" width="46.666666666666664" height="46.666666666666686"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="ylZ-qu-d6k" secondAttribute="height" multiplier="1:1" id="nn0-dr-uQI"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="E2"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna2:" destination="-1" eventType="touchUpInside" id="tIK-8H-kLd"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHO-lp-eaU">
+                                            <rect key="frame" x="0.0" y="284.33333333333331" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="vHO-lp-eaU" secondAttribute="height" multiplier="1:1" id="TKL-4P-j7q"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="F2"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna2:" destination="-1" eventType="touchUpInside" id="kdh-Wi-5Jh"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vZd-OS-MZi">
+                                    <rect key="frame" x="113.66666666666666" y="0.0" width="47" height="331.33333333333331"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYg-WE-tZP">
+                                            <rect key="frame" x="0.0" y="0.0" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="yYg-WE-tZP" secondAttribute="height" multiplier="1:1" id="u3W-nL-zbc"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="A3"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna3:" destination="-1" eventType="touchUpInside" id="e5I-Kt-LbG"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMG-8P-gGu">
+                                            <rect key="frame" x="0.0" y="57" width="47" height="46.666666666666657"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="JMG-8P-gGu" secondAttribute="height" multiplier="1:1" id="kcJ-TK-yxt"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="B3"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna3:" destination="-1" eventType="touchUpInside" id="3nP-LJ-vTx"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5E-hT-H0O">
+                                            <rect key="frame" x="0.0" y="113.66666666666669" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="Q5E-hT-H0O" secondAttribute="height" multiplier="1:1" id="OWs-4R-VCG"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="C3"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna3:" destination="-1" eventType="touchUpInside" id="mHV-AV-6oO"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="McJ-jQ-4PO">
+                                            <rect key="frame" x="0.0" y="170.66666666666669" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="McJ-jQ-4PO" secondAttribute="height" multiplier="1:1" id="4oh-K1-LnV"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="D3"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna3:" destination="-1" eventType="touchUpInside" id="CfE-R2-qAJ"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Lo-cT-IzZ">
+                                            <rect key="frame" x="0.0" y="227.66666666666669" width="47" height="46.666666666666686"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="4Lo-cT-IzZ" secondAttribute="height" multiplier="1:1" id="8EC-Sy-yTx"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="E3"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna3:" destination="-1" eventType="touchUpInside" id="ZgB-88-SSz"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5s-ir-Q4g">
+                                            <rect key="frame" x="0.0" y="284.33333333333331" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="B5s-ir-Q4g" secondAttribute="height" multiplier="1:1" id="xKd-kE-Jgf"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="F3"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna3:" destination="-1" eventType="touchUpInside" id="fiO-Ec-u5K"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sTe-7F-AJF">
+                                    <rect key="frame" x="170.66666666666666" y="0.0" width="46.666666666666657" height="331.33333333333331"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTE-4d-Ncu">
+                                            <rect key="frame" x="0.0" y="0.0" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="UTE-4d-Ncu" secondAttribute="height" multiplier="1:1" id="gX5-6N-ueA"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="A4"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna4:" destination="-1" eventType="touchUpInside" id="Fha-2X-8Bt"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jed-JB-Awf">
+                                            <rect key="frame" x="0.0" y="57" width="46.666666666666664" height="46.666666666666657"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="jed-JB-Awf" secondAttribute="height" multiplier="1:1" id="Ado-rR-e2V"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="B4"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna4:" destination="-1" eventType="touchUpInside" id="DcD-3W-zkj"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdM-wd-faF">
+                                            <rect key="frame" x="0.0" y="113.66666666666669" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="SdM-wd-faF" secondAttribute="height" multiplier="1:1" id="yaF-gh-s6D"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="C4"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna4:" destination="-1" eventType="touchUpInside" id="MCl-PK-cg4"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7d-82-ZuL">
+                                            <rect key="frame" x="0.0" y="170.66666666666669" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="j7d-82-ZuL" secondAttribute="height" multiplier="1:1" id="OoV-xW-H6A"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="D4"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna4:" destination="-1" eventType="touchUpInside" id="Wpw-Oo-Knw"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igM-HH-Hhz">
+                                            <rect key="frame" x="0.0" y="227.66666666666669" width="46.666666666666664" height="46.666666666666686"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="igM-HH-Hhz" secondAttribute="height" multiplier="1:1" id="xNI-tg-uDt"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="E4"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna4:" destination="-1" eventType="touchUpInside" id="U6L-Tk-Cos"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yyj-E2-7wb">
+                                            <rect key="frame" x="0.0" y="284.33333333333331" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="yyj-E2-7wb" secondAttribute="height" multiplier="1:1" id="pIX-e4-2qT"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="F4"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna4:" destination="-1" eventType="touchUpInside" id="dXk-lO-k8o"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SFA-Gz-Q7h">
+                                    <rect key="frame" x="227.33333333333334" y="0.0" width="47.000000000000028" height="331.33333333333331"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j03-4i-3Nn">
+                                            <rect key="frame" x="0.0" y="0.0" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="j03-4i-3Nn" secondAttribute="height" multiplier="1:1" id="W68-9A-qyT"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="A5"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna5:" destination="-1" eventType="touchUpInside" id="eFy-mj-oGB"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doh-73-Ycf">
+                                            <rect key="frame" x="0.0" y="57" width="47" height="46.666666666666657"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="doh-73-Ycf" secondAttribute="height" multiplier="1:1" id="n3c-Ah-JgA"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="B5"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna5:" destination="-1" eventType="touchUpInside" id="fuS-of-a6U"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0V4-I9-nIp">
+                                            <rect key="frame" x="0.0" y="113.66666666666669" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="0V4-I9-nIp" secondAttribute="height" multiplier="1:1" id="wLc-No-TOz"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="C5"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna5:" destination="-1" eventType="touchUpInside" id="H7g-zL-zV4"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDo-b7-AKj">
+                                            <rect key="frame" x="0.0" y="170.66666666666669" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="qDo-b7-AKj" secondAttribute="height" multiplier="1:1" id="BwW-sp-zOD"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="D5"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna5:" destination="-1" eventType="touchUpInside" id="3qY-RF-kP1"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJN-NF-7za">
+                                            <rect key="frame" x="0.0" y="227.66666666666669" width="47" height="46.666666666666686"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="EJN-NF-7za" secondAttribute="height" multiplier="1:1" id="beW-zn-eeH"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="E5"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna5:" destination="-1" eventType="touchUpInside" id="xJi-1r-MOh"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pix-dc-7hw">
+                                            <rect key="frame" x="0.0" y="284.33333333333331" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="Pix-dc-7hw" secondAttribute="height" multiplier="1:1" id="Ead-GS-lEO"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="F5"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna5:" destination="-1" eventType="touchUpInside" id="Hfk-Hx-aq6"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0wh-y9-UOZ">
+                                    <rect key="frame" x="284.33333333333331" y="0.0" width="46.666666666666686" height="331.33333333333331"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIj-pa-LJs">
+                                            <rect key="frame" x="0.0" y="0.0" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="bIj-pa-LJs" secondAttribute="height" multiplier="1:1" id="Gbg-ge-7Dh"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="A6"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna6:" destination="-1" eventType="touchUpInside" id="Z6d-rk-oRS"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uel-vn-wbz">
+                                            <rect key="frame" x="0.0" y="57" width="46.666666666666664" height="46.666666666666657"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="uel-vn-wbz" secondAttribute="height" multiplier="1:1" id="IuJ-fj-huK"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="B6"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna6:" destination="-1" eventType="touchUpInside" id="S1G-g7-JLP"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tm0-sT-XV3">
+                                            <rect key="frame" x="0.0" y="113.66666666666669" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="Tm0-sT-XV3" secondAttribute="height" multiplier="1:1" id="n5y-to-2Io"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="C6"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna6:" destination="-1" eventType="touchUpInside" id="u3m-fo-LUn"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sH-Jx-kw2">
+                                            <rect key="frame" x="0.0" y="170.66666666666669" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="4sH-Jx-kw2" secondAttribute="height" multiplier="1:1" id="9Ga-j6-rdf"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="D6"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna6:" destination="-1" eventType="touchUpInside" id="sCj-86-Ggd"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzz-JL-U8d">
+                                            <rect key="frame" x="0.0" y="227.66666666666669" width="46.666666666666664" height="46.666666666666686"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="Gzz-JL-U8d" secondAttribute="height" multiplier="1:1" id="c1q-jC-Ma2"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="E6"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna6:" destination="-1" eventType="touchUpInside" id="mg9-XJ-RUe"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YzX-Q0-701">
+                                            <rect key="frame" x="0.0" y="284.33333333333331" width="46.666666666666664" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="YzX-Q0-701" secondAttribute="height" multiplier="1:1" id="Yi1-LG-eeG"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="F6"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna6:" destination="-1" eventType="touchUpInside" id="agH-7o-gqH"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TBo-8f-lya">
+                                    <rect key="frame" x="341" y="0.0" width="47" height="331.33333333333331"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZH-mc-Psp">
+                                            <rect key="frame" x="0.0" y="0.0" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="IZH-mc-Psp" secondAttribute="height" multiplier="1:1" id="oMs-kC-H1I"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="A7"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna7:" destination="-1" eventType="touchUpInside" id="CO9-Fv-DMP"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Xg-bv-6Yz">
+                                            <rect key="frame" x="0.0" y="57" width="47" height="46.666666666666657"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="3Xg-bv-6Yz" secondAttribute="height" multiplier="1:1" id="Pdb-Rf-iTf"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="B7"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna7:" destination="-1" eventType="touchUpInside" id="BiU-aY-Bfk"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4c-xl-7cv">
+                                            <rect key="frame" x="0.0" y="113.66666666666669" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="E4c-xl-7cv" secondAttribute="height" multiplier="1:1" id="NYc-EN-h2f"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="C7"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna7:" destination="-1" eventType="touchUpInside" id="igD-pM-Wb2"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hws-e2-h9g">
+                                            <rect key="frame" x="0.0" y="170.66666666666669" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="Hws-e2-h9g" secondAttribute="height" multiplier="1:1" id="myx-4h-YHh"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="D7"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna7:" destination="-1" eventType="touchUpInside" id="QXV-9a-qaP"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuU-VI-APP">
+                                            <rect key="frame" x="0.0" y="227.66666666666669" width="47" height="46.666666666666686"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="RuU-VI-APP" secondAttribute="height" multiplier="1:1" id="04V-5E-RRc"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="E7"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna7:" destination="-1" eventType="touchUpInside" id="gTh-Ti-49U"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHC-Nb-21d">
+                                            <rect key="frame" x="0.0" y="284.33333333333331" width="47" height="47"/>
+                                            <color key="backgroundColor" red="0.22750084849999999" green="0.13362796539999999" blue="0.52402061860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="AHC-Nb-21d" secondAttribute="height" multiplier="1:1" id="rH1-Ct-Cwz"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="F7"/>
+                                            <connections>
+                                                <action selector="InsertarFichaColumna7:" destination="-1" eventType="touchUpInside" id="jvR-qI-i4p"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.14855402892530623" green="0.080074649278207455" blue="0.36757438021134015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="5xd-xs-7jP" firstAttribute="leading" secondItem="UVG-uZ-rfJ" secondAttribute="leading" constant="10" id="DDi-Wf-C5w"/>
+                        <constraint firstAttribute="bottom" secondItem="5xd-xs-7jP" secondAttribute="bottom" constant="10" id="HB0-jn-o4b"/>
+                        <constraint firstAttribute="trailing" secondItem="5xd-xs-7jP" secondAttribute="trailing" constant="10" id="LNs-Px-dEh"/>
+                        <constraint firstItem="5xd-xs-7jP" firstAttribute="top" secondItem="UVG-uZ-rfJ" secondAttribute="top" constant="10" id="oEh-wy-bLv"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZA-nL-rk9">
+                    <rect key="frame" x="134" y="709" width="150" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.12374462291224642" green="0.071651757057536139" blue="0.29796546570103111" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="29"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Reiniciar">
+                        <color key="titleColor" systemColor="systemYellowColor"/>
+                    </state>
+                    <connections>
+                        <action selector="Restart:" destination="-1" eventType="touchUpInside" id="f26-4V-uvJ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Victorias rojo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaF-Ze-HAt">
+                    <rect key="frame" x="20" y="77" width="109.66666666666669" height="20.666666666666671"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                    <color key="textColor" systemColor="systemYellowColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Victorias amarillo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4R-ZH-Py2">
+                    <rect key="frame" x="229" y="77" width="145" height="20.666666666666671"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                    <color key="textColor" systemColor="systemYellowColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hru-fy-Rea">
+                    <rect key="frame" x="375" y="77" width="32.666666666666686" height="20.666666666666671"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                    <color key="textColor" systemColor="systemOrangeColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0b-XX-lTa">
+                    <rect key="frame" x="131" y="131" width="164" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.1237446229" green="0.071651757060000001" blue="0.29796546569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="17"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Reiniciar victorias">
+                        <color key="titleColor" systemColor="systemYellowColor"/>
+                    </state>
+                    <connections>
+                        <action selector="reiniciarVictorias:" destination="-1" eventType="touchUpInside" id="a9y-yb-Vl0"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Turno jugador:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6c-g5-qj7">
+                    <rect key="frame" x="122" y="203" width="109" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                    <color key="textColor" systemColor="systemGreenColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amarillo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1t-4b-T35">
+                    <rect key="frame" x="236" y="203" width="68" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                    <color key="textColor" systemColor="systemRedColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRt-Ug-pwv">
+                    <rect key="frame" x="131" y="77" width="32.666666666666657" height="20.666666666666671"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                    <color key="textColor" systemColor="systemOrangeColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.24846157288048085" green="0.14127137136357273" blue="0.57977528994845362" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="UVG-uZ-rfJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="MWl-Db-17g"/>
+                <constraint firstItem="UVG-uZ-rfJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Y5J-eb-4Ff"/>
+                <constraint firstItem="UVG-uZ-rfJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="jTp-Wn-djS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="UVG-uZ-rfJ" secondAttribute="trailing" constant="10" id="o1h-dp-dqP"/>
+            </constraints>
+            <point key="canvasLocation" x="131.77570093457942" y="129.58963282937367"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
