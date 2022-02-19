@@ -2998,9 +2998,9 @@ class HomeViewController: UIViewController {
         
         retardoAlerta = Timer.scheduledTimer(withTimeInterval: 1.5, repeats: false) { [self] timer in
         
-            let finPartida = UIAlertController(title: "Ganador jugador \(ganador)", message: "¿Quiere Comenzar otra Nueva?", preferredStyle: .alert)
+            let finPartida = UIAlertController(title: "Ganador jugador \(ganador)", message: nil, preferredStyle: .alert)
             
-            finPartida.addAction(UIAlertAction(title: "Comenzar", style: .default, handler: { _ in
+            finPartida.addAction(UIAlertAction(title: "Partida Nueva", style: .default, handler: { _ in
                 
                 retardoAlerta = Timer.scheduledTimer(withTimeInterval: 1, repeats: false) { [self] timer in
                 
